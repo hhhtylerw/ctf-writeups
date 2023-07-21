@@ -17,6 +17,8 @@ https://ctftime.org/event/1983
 - [Censorship](misc/Censorship)
 
 **osint** 
+- [ScreenshotGuesser](osint/ScreenshotGuesser)
+
 - [Gitint 5e](osint/Gitint)
 
 - [Gitint 7d](osint/Gitint)

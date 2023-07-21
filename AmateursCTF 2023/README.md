@@ -14,6 +14,7 @@ https://ctftime.org/event/1983
 - [Minceraft](forensics/Minceraft/README.md)
 
 **misc**
+- [Censorship](misc/Censorship/README.md)
 
 **osint** 
 

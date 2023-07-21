@@ -6,7 +6,7 @@ https://ctftime.org/event/1983
 ## Challenges
 
 **crypto** 
-- [Compact XORs](crypto/Compact XORs/Compact XORs.md)
+- [Compact XORs](crypto/Compact%20XORs/README.md)
 
 **forensics** 
 

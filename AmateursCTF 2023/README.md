@@ -8,18 +8,18 @@ https://ctftime.org/event/1983
 ## Challenges
 
 **crypto** 
-- [Compact XORs](crypto/Compact%20XORs/README.md)
+- [Compact XORs](crypto/Compact%20XORs)
 
 **forensics** 
-- [Minceraft](forensics/Minceraft/README.md)
+- [Minceraft](forensics/Minceraft)
 
 **misc**
-- [Censorship](misc/Censorship/README.md)
+- [Censorship](misc/Censorship)
 
 **osint** 
-- [Gitint 5e](osint/Gitint/README.md)
+- [Gitint 5e](osint/Gitint)
 
-- [Gitint 7d](osint/Gitint/README.md)
+- [Gitint 7d](osint/Gitint)
 
 **pwn** 
 

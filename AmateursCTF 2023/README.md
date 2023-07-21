@@ -11,6 +11,7 @@ https://ctftime.org/event/1983
 - [Compact XORs](crypto/Compact%20XORs/README.md)
 
 **forensics** 
+- [Minceraft](forensics/Minceraft/README.md)
 
 **misc**
 

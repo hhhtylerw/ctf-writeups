@@ -17,6 +17,9 @@ https://ctftime.org/event/1983
 - [Censorship](misc/Censorship/README.md)
 
 **osint** 
+- [Gitint 5e](osint/Gitint/README.md)
+
+- [Gitint 7d](osint/Gitint/README.md)
 
 **pwn** 
 

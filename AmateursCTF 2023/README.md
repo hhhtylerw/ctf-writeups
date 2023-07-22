@@ -24,6 +24,7 @@ https://ctftime.org/event/1983
 - [Gitint 7d](osint/Gitint)
 
 **pwn** 
+- [rntk](pwn/rntk)
 
 **rev** 
 

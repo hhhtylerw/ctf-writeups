@@ -7,6 +7,7 @@ I found some hex in a file called fleg, but I'm not sure how it's encoded. I'm p
 ## Solution
 
 ![cyberchef](cyberchef.png)
+
 Throwing the string contained in `fleg` into CyberChef `From Hex` shows a pattern of present and missing characters for a flag.
 
 Playing with the input reveals that XORing the missing character with the present character before it creates a valid flag.

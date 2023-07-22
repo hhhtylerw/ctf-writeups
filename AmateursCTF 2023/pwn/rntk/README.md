@@ -11,33 +11,43 @@ Open Ghidra and analyze the binary to find the main function.
 The points of interest are `generate_canary()`, `random_guess()`, and `win()`. 
 
 `main()` is the entry point. It runs `generate_canary()` and takes user input.
+
 ![1](image1.png)
 
 `generate_canary()` uses the current time as a seed, generates a random number, and saves it as `global_canary`.
+
 ![2](image2.png)
 
 `random_guess()` takes user input via `gets()` and is resistant to attacks by maintaining that a `local_canary` is equal to the `global_canary`.
+
 ![3](image3.png)
 
 The function returns to address `0x004014cf` after it completes.
+
 ![3.5](image3.5.png)
 
 `win()` is an unreachable function that sends the flag.
+
 ![4](image4.png)
 
 It starts at address `0x004012b6`.
+
 ![3.5](image4.5.png)
 
 Using GDB, one can analyze the call stack. Breakpoints should be set before and after the vulnerable `gets()` in order to see how it affects the stack.
+
 ![5](image5.png)
 
 Running the file and analyzing the stack before and after input shows how the input is stored. 
+
 ![6](image6.png)
+
 As can be seen, the value `0x004014cf` is on the stack. This is the return address and is the target for overflow.
 
 The second value `0x4db6562a` is the `local_canary` value here. It must be calcualted, so it can remain on the stack even after the attack.
 
 A random number can be generated in order to reverse the exact second the seed time.
+
 ![7](image7.png)
 
 

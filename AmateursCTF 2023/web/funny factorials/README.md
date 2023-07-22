@@ -12,7 +12,9 @@ The `Dockerfile` reveals that there is a `flag.txt` in the root directory.
 
 `app.py` reveals that there is a possibly directory traversal vulnerability in the `theme` query parameter.
 
-It is not easy to access this because there is a recursive script sanitzing user path input. This script tests inputs and finds what works for accessing `flag.txt`.
+It is not easy to access this because there is a recursive script sanitzing user path input. 
+
+This script tests inputs and finds what works for accessing `flag.txt`.
 
 ```py
 import sys

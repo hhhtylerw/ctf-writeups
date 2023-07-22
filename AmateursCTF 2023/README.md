@@ -30,3 +30,5 @@ https://ctftime.org/event/1983
 - [volcano](rev/volcano)
 
 **web** 
+- [waiting-an-eternity](web/waiting-an-eternity)
+- [funny factorials](web/funny%20factorials)
